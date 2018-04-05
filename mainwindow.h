@@ -18,6 +18,7 @@ public:
     QString string;
 
     leiii * my;
+
 private slots:
     void fashe();
 
@@ -29,7 +30,7 @@ signals:
 
 private:
     Ui::MainWindow *ui;
-
+        int a;
 };
 
 #endif // MAINWINDOW_H

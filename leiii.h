@@ -8,12 +8,14 @@ class leiii : public QMainWindow
     Q_OBJECT
 public:
     explicit leiii(QPushButton * b,QWidget *parent = nullptr);
+    void channgeint(int &b );
 
 signals:
 
 private:
     QPushButton *bk;
     QPushButton *kk;
+
 public slots:
         void gai(QString hh);
 };
